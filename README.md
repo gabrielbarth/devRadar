@@ -11,6 +11,7 @@ O objetivo da aplicação é permitir que desenvolvedores descubram colegas ao s
 
 Para o projeto também foi implementado WebSocket, permitindo a atualização/comunicação em real time entre as plataformas.
 
+Veja o funcionamento: https://www.youtube.com/watch?v=QbBkCYPoCtw&feature=youtu.be
 ```diff
 # english
 ```
@@ -19,6 +20,7 @@ Fullstack application to enable dev meeting others programmers and his tecnologi
 
 The project was developed by RocketSeat during the Omnistack Week 10.
 
+See the app working on: https://www.youtube.com/watch?v=QbBkCYPoCtw&feature=youtu.be
 
 <img src="./images/web.PNG">
 <img src="./images/mob1.png" >
