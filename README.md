@@ -1,75 +1,89 @@
-# devRadar
+<h1 align="center">
+  DevRadar :round_pushpin: :octocat:
+</h1>
 
 
-```diff
-# português-br
-```
-
-Projeto desenvolvido durante a semana Omnistack 10 da Rocketseat. Trata-se de uma plataforma fullstack desenvolvida utilizando ReactJS, React native e Node.js.
-
-O objetivo da aplicação é permitir que desenvolvedores descubram colegas ao seu redor e, especialmente, as linguagens de programação com as quais estes trabalham.
-
-Para o projeto também foi implementado WebSocket, permitindo a atualização/comunicação em real time entre as plataformas.
-
-Veja o funcionamento: https://www.youtube.com/watch?v=QbBkCYPoCtw&feature=youtu.be
-```diff
-# english
-```
-
-Fullstack application to enable dev meeting others programmers and his tecnologies. It was developed using React, React Native and Node.js.
-
-The project was developed by RocketSeat during the Omnistack Week 10.
+Fullstack application to allow dev meeting others programmers and his tecnologies. 
+It was developed using **React**, **React Native** and **Node.js**, during RocketSeat Omnistack v10 week.
 
 See the app working on: https://www.youtube.com/watch?v=QbBkCYPoCtw&feature=youtu.be
 
-<img src="./images/web.PNG">
-<img src="./images/mob1.png" >
+<p align="center"> 
+  <img src="./images/web.png" >
+  <img src="./images/mob.png" width="500px">
+</p>
 
-```diff
-# Como executar este projeto?
-```
+## :computer: Getting Started - Running on your machine
 
-Clone o projeto: git clone https://github.com/gabrielbarth/devRadar.git
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-```diff
-# backend
-```
+First of all, clone this project using the following command: `git clone https://github.com/gabrielbarth/devRadar.git`
 
-Entre no diretório backend e instale as dependências do package.json: yarn install  ou  npm install
-
-Crie uma conta no <a href="https://www.mongodb.com/cloud/atlas">mongoDB atlas </a> 
-
-Construa um novo Cluster (local onde será armazenado seus bancos de dados): "Build a New Cluster";
-
-Clique em CONNECT e escolha a opção "Connect Your Application"; depois copie a string de conexão e substitua a string de conexão que está dentro da função mongoose.connect - do arquivo index.js.
-
-Não se esqueça de executar o servidor para realizar testes, neste caso com o seguinte comando: yarn dev;
-
-Para observar os dados cadastrados no Banco, você também pode realizar conexão via  <a href="https://docs.mongodb.com/compass/master/connect/"> mongoDB Compass </a>
+### Backend :floppy_disk:
 
 
-```diff
-# web
-```
-Entre no diretório web e instale as dependências do package.json: yarn install  ou  npm install
+#### :ballot_box_with_check: Prerequisites
+Follow the bellow steps to run backend project on your machine:
 
-Para executar/testar, execute: yarn start  ou  npm start
+**1.** Create an account in <a href="https://www.mongodb.com/cloud/atlas">mongoDB atlas </a> 
+
+**2.** Build a new Cluster - location where your databases will be stored
+
+**3.** Click on **CONNECT** and choose the option "Connect Your Application"; then copy the connection string and replace the connection string that is inside the **mongoose.connect function** - in **index.js file**.
+
+**4.** To check if data is being registered on database you need open 
+<a href="https://docs.mongodb.com/compass/master/connect/">mongoDB Compass</a>
+
+#### :hammer_and_wrench: Installing
+
+**1.** Enter in backend directory: `cd backend` and install packege.json dependencies: `yarn` or `npm install`
+
+**1.** Run `yarn start` or `npm start` to initialize backend server
 
 
-```diff
-# mobile
-```
-Entre no diretório mobile e instale as dependências do package.json: yarn install  ou  npm install
+### Web project :computer:
+#### :hammer_and_wrench: Installing
 
-baixe o app do expo no seu dispositivo móvel
+**1.** Make sure that backend is running on port 3333;
 
-no arquivo api.js (dentro da pasta services), coloque seu IP local na baseURL para conseguir executar o aplicativo
-Caso você tenha iPhone, seu IP será "http://localhost:3333"
+**2.** Enter in the appropriated directory: `cd web` and install packege.json dependencies: `yarn` or `npm install`
 
-dentro do diretório mobile, execute o comando: expo start
+**3.** Run on your browser using the following command: `yarn start` or `npm start`
 
-Com o app do expo, escaneie o QRcode que aparecerá na sua tela
+### Mobile project :iphone: 
+#### :hammer_and_wrench: Installing
 
-Entenda mais sobre expo <a href="https://expo.io/learn"> AQUI</a> 
+**1.** Make sure that backend is running on port 3333;
 
-#### Caso tenha dúvidas (ou observou que esqueci de algum passo, rrsrs), entre em contato comigo!
+**2.** Enter in the appropriated directory: `cd web` and install packege.json dependencies: `yarn` or `npm install`
+
+**3.** Download expo application on play store or apple store and install it on your phone
+
+**4.** Set your local IP address on services/**api.js file**. Use `http://localhost:3333` if you have an iPhone.
+
+**5.** Run `expo start` to run the application
+
+**6.** Enter expo application and scan QR Code that will appear on your browser.
+
+Read more about expo <a href="https://expo.io/learn">HERE</a>.
+
+
+## :bulb: :handshake: Contributing
+Please feel free to contributing and submitting pull requests.
+
+## :pray: Acknowledgments
+* Rocketseat team
+
+## :thinking: Any question?
+**Contact me on my social medias:**<br>
+[LinkedIn](https://www.linkedin.com/in/gabriel-barth-silv%C3%A9rio-6081ba153/) <br>
+[Instagram](https://instragram.com/gb1.dev) <br>
+[YouTube](https://www.youtube.com/channel/UCmA_19d5L3WTFdDfwQ6Uenw) <br>
+[Discord](https://www.wikihow.com/Add-Friends-on-Discord) (**gabrielbarth1#0492**)<br>
+Or send me an email :incoming_envelope:: gabrielbarth.dev@gmail.com.
+<br>
+<br>
+<p align="center">
+  Made with ♥ by <a href="https://gabrielbarth.com/">Gabriel Barth</a>
+</p>
+
